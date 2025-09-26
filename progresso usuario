@@ -1,0 +1,45 @@
+print("=== PROGRESSO DO USUÁRIO ===")
+
+while True:
+    id_progresso_usuario = input("ID do progresso: ")
+    if id_progresso_usuario != "":
+        break
+    print("Não pode ficar em branco!")
+
+while True:
+    id_usuarios = input("ID do usuário: ")
+    if id_usuarios != "":
+        break
+    print("Não pode ficar em branco!")
+
+while True:
+    data_registro = input("Data do registro (AAAA-MM-DD): ")
+    if data_registro != "" and len(data_registro) == 10:
+        break
+    print("Digite exatamente 10 caracteres!")
+
+while True:
+    peso = input("Peso (kg): ")
+    if peso != "":
+        break
+    print("Não pode ficar em branco!")
+
+while True:
+    imc = input("IMC: ")
+    if imc != "":
+        break
+    print("Não pode ficar em branco!")
+
+while True:
+    data_criacao = input("Data de criação (AAAA-MM-DD HH:MM): ")
+    if data_criacao != "":
+        break
+    print("Não pode ficar em branco!")
+
+while True:
+    usuario_id = input("ID do usuário: ")
+    if usuario_id != "":
+        break
+    print("Não pode ficar em branco!")
+
+print("\nProgresso registrado!")
